@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Website</title>
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="login.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">Feastly</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Add Resturant</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                 <button class="login">Login</button>
+              
+            </ul>
+        </nav>
+    </header>
+    <section id="section1">
+    
+    <div class="login-container">
+        <span class="icon-close">
+            <i class='bx bxs-message-square-x' id="btn"></i>
+        </span>
+        <h1>Login</h1>
+        <form action="">
+            <div class="login-box-container">
+                <div class="input-box">
+                    <input type="text" required>
+                    <label for="username">Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label for="username">Password</label>
+                </div>
+            </div>
+            <div class="remember-me">
+                <input type="checkbox" name="remember-me" id="remember-me">
+                <label for="remember-me">Remember Me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+            <div class="signup">
+                <p>Don't have an account? <a href="#" id="sign-up">Sign Up</a></p>
+            </div>
+        </form>
+    </div>
+
+    <form action="" class="form-register">
+        <span class="icon-close-register">
+            <i class='bx bxs-message-square-x ' id="button"></i>
+        </span>
+        <h1 id="register">Register</h1>
+        <div class="register-box-container">
+            <div class="input-box">
+                <input type="text" required>
+                <label for="username">UserName</label>
+            </div>
+            <div class="input-box">
+                <input type="text" required>
+                <label for="username">Email</label>
+            </div>
+            <div class="input-box">
+                <input type="password" required>
+                <label for="username">Password</label>
+            </div>
+        </div>
+
+        </div>
+        <button type="submit" class="login-btn">Register</button>
+        <div class="signup">
+            <p>Already Have a Account? <a href="#" id="login-button">Login</a></p>
+        </div>
+    </form>
+</section>
+    <section id="section2">
+        <img src="sitting.png" id="sit">
+
+        <div class="container ">
+            <div class="image-container1">
+                <img src="bihari.png" id="bihari">
+            </div>
+            <div class="image-container2 ">
+                <img src="./codeart/salilbot.jpg" id="salil" >
+
+            </div>
+        </div>
+        <div class="information">
+            <h1 id="who">Who We Are ?</h1>
+            <p id="para">
+                Hi, I'm Salil, a passionate full-stack developer with expertise in building robust and scalable web applications. Alongside me is Om Bihari, a creative UI/UX designer who brings ideas to life with stunning and user-friendly designs. Together, we combine our skills to create seamless, visually appealing, and functional digital experiences. Whether it's coding the backbone of a project or crafting intuitive interfaces, we're a dynamic team dedicated to delivering excellence.
+            </p>
+
+        </div>
+     
+        
+    </section>
+    <section id="section3">
+
+    </section>
+
+</body>
+
+
+</html>
